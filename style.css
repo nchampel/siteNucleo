@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+section {
+    padding-left: 5vw;/*100vh = 100% de la hauteur visible. vw pour la largeur*/
+    padding-right: 5vw;
+    text-align: center;
+}
+#premiere-page {
+    background-color: #062F44;
+    position: relative;
+}
+#deuxieme-page {
+    height: 750px;
+    background-color: #e6e8e9;
+}
+.petit-spacer {
+    height: 30px;
+}
+#quatrieme-page {
+    background-color: #DB9600;
+}
+#cinquieme-page {
+    background: linear-gradient(#630081, #9A0066);
+    height: 400px;
+    color: white;
+}
+.lightblue {
+    color: lightseagreen;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.mini {
+    width: 200px;
+}
+h1, .uppercase {
+    text-transform: uppercase;
+}
+.button {
+    color: white;
+    margin: auto;
+    margin-top: 300px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #D8416B;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.spacing {
+    height: 50px;
+}
+.premCercle {
+    position: absolute;
+    top: 50px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    filter: blur(50px);
+}
+.deuxCercle {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    filter: blur(16px);
+}
+.troisCercle {
+    position: absolute;
+    top: 250px;
+    left: 675px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    filter: blur(16px);
+}
+.para {
+    margin: auto;
+    margin-top: 10px;
+    width: 750px;
+    color: #23AEB9;
+}
+
+.constsuperpose {
+    position: relative;
+    
+}
+.superpose {
+    position: absolute;
+    margin-left: -200px;
+}
+.paratext {
+    width: 200px;
+}
+.text1 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.text2 {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.text3 {
+    position: absolute;
+    left: 850px;
+    top: 50px;
+}
+.text4 {
+    position: absolute;
+    left: 850px;
+    top: 250px;
+}
+.text5 {
+    position: absolute;
+    left: 850px;
+    top: 400px;
+}
+#nucleus {
+    top: 200px;
+    left: 600px;
+}
+#boutonSuperp {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.white {
+    color: white;
+}
+table {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 20px;
+   margin-bottom: 200px;
+   border-collapse: collapse;
+}
+td, th {
+    padding: 10px;
+}
+
+thead tr th {
+    padding-top: 20px;
+}
+
+table thead tr :nth-child(2), table thead tr :nth-child(3), table thead tr :nth-child(4){
+    background-image: url(assets/features-header.png);
+    height: 100px;
+    width: 150px;
+}
+
+thead th, tbody th, tfoot th, tbody td, tfoot td {
+    border-right: 10px solid #DB9600;
+}
+
+tbody th {
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) th {
+    background-color: white;
+}
+
+table tbody tr:nth-child(even) th {
+    background-color: #F0F0F0;
+}
+
+table tbody tr:nth-child(odd) td:nth-child(2) {
+    background-color: #A6DDFB;
+}
+table tbody tr:nth-child(even) td:nth-child(2) {
+    background-color: #D0ECFB;
+}
+table tbody tr:nth-child(odd) td:nth-child(3) {
+    background-color: #78D6D6;
+}
+table tbody tr:nth-child(even) td:nth-child(3) {
+    background-color: #B8E7E6;
+}
+table tbody tr:nth-child(odd) td:nth-child(4) {
+    background-color: #EFA2B3;
+}
+table tbody tr:nth-child(even) td:nth-child(4) {
+    background-color: #F7D0DA;
+}
+
+tfoot td {
+    background-color: white;
+}
+
+.tableSpacer {
+    height: 100px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+#btn1 {
+    background-color: #55B9F5;
+}
+#btn2 {
+    background-color: #00AAAB;
+}
+#btn3 {
+    background-color: #DD3E69;
+}
+.minispan {
+    font-size: 8px;
+}
+#check {
+    margin-top: 6px;
+}
+#cinquieme-page p{
+    padding-top: 50px;
+    font-size: 16px;
+}
+#cinquieme-page img{
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 20px;
+}
+.images {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#cinquieme-page h4 {
+    margin-top: 10px;
+}
+#sixieme-page {
+    border-bottom: 1px greenyellow solid;
+    background-color: #E2E2DC;
+    display: flex;
+    justify-content: center;
+}
+
+#sixieme-page h2 {
+    color: rgb(230, 23, 57);
+    position: relative;
+}
+.ligne-verticale {
+    border: 1px red solid;
+    height: 5050px;
+    margin: 0 10px;
+}
+.div-gauche, .div-droite {
+    width: 500px;
+}
+.div-gauche p {
+    text-align: right;
+    line-height: 2em;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.div-gauche h2 {
+    text-align: right;
+    margin-top: 40px;
+}
+.div-droite p {
+    text-align: left;
+    line-height: 2em;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.div-droite h2 {
+    text-align: left;
+    margin-top: 40px;
+}
+.petitCercle {
+    position: relative;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px red solid;
+}
+.petitCercle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    top: 3px;
+    left: 3px;
+    background-color: red;
+}
+#cercle1 {
+    top: 150px;
+    left: 536px;
+}
+#cercle2 {
+    top: 550px;
+    left: 519px;
+}
+
+#image1 {
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #B2E324;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.placement {
+    margin: 50px 0;
+    padding-top: 50px;
+}
+footer p {
+    margin-bottom: 100px;
+}
+.deco-footer {
+    position: relative;
+    margin-top: 30px;
+}
+.ligne-hor {
+    position: absolute;
+    border-top: 1px white solid;
+    width: 1000px;
+    left: 130px;
+    top: 15px;
+}
+.btn-bas {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.div-btn {
+    position: absolute;
+    left: 550px;
+    z-index: 1;
+}
+.position {
+    position: relative;
+    height: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 86px solid transparent;
+    border-right: 86px solid transparent;
+    top: -2px;
+    left: -2px;
+}
+#triangle1 {
+    border-top: 15px solid #D0ECFB;
+}
+#triangle2 {
+    border-top: 15px solid #B8E7E6;
+}
+#triangle3 {
+    border-top: 15px solid #F7D0DA;
+}
